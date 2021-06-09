@@ -1,13 +1,13 @@
 export default {
   pools: {
-    0: '', // genesis
-    1000: '', // ARTX 1000
-    2000: '' // ARTX 2000
+    0: '0x824351E79Bdef74565ed4b127f1e223AA6CC3910', // genesis
+    1000: '0x7c79A71CCB596120f967f0d486B1Cc81eA50a093', // ARTX 1000
+    2000: '0x3E2B0C24F621dAb0D69DAA2b90f3FE0c1C03C617' // ARTX 2000
   },
   cards: {
-    0: '', // genesis
-    1000: '', // ARTX 1000
-    2000: '' // ARTX 2000
+    0: '0x0a49c989A415AC1A2e8775913FC39B78cE624dFE', // genesis
+    1000: '0xD58Bf1CDdb9db4ad84945ffF5830d234E6Cba844', // ARTX 1000
+    2000: '0xb504A871eFEEC1217B1f9f5D9d8D8571517628E4' // ARTX 2000
   },
-  token: ''
+  token: '0x8412bd5BB0c492c1ECD9192C62dD0273062A8458'
 }
