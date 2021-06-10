@@ -1,1 +1,4 @@
-export default (network = 'mainnet') => import(`./addresses/${network}.js`)
+export default async (network = 'mainnet') => {
+  const importee = await import(`./addresses/${network}.js`)
+  return importee.default
+}
